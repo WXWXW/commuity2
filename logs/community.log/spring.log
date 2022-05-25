@@ -23,3 +23,7 @@
 2022-05-25 16:40:03.700  INFO 27024 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
 2022-05-25 16:44:28.810  INFO 27024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-25 16:44:28.826  INFO 27024 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-25 17:47:56.203  INFO 24504 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Starting Commuity2ApplicationTests using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 24504 (started by Ðã in F:\Java Ñ§Ï°\commuity2)
+2022-05-25 17:47:56.204  INFO 24504 --- [main] c.w.commuity2.Commuity2ApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2022-05-25 17:47:58.415  INFO 24504 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-25 17:47:58.858  INFO 24504 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Started Commuity2ApplicationTests in 2.948 seconds (JVM running for 3.839)
