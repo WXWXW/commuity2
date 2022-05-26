@@ -1,6 +1,69 @@
-2022-05-26 00:54:39.023  INFO 24368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2022-05-26 00:54:39.047  INFO 24368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2022-05-26 16:08:25.774  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Starting Commuity2ApplicationTests using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 32388 (started by Ðã in F:\Java Ñ§Ï°\commuity2)
-2022-05-26 16:08:25.775  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : The following 1 profile is active: "production"
-2022-05-26 16:08:28.700  INFO 32388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
-2022-05-26 16:08:29.007  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Started Commuity2ApplicationTests in 3.622 seconds (JVM running for 4.804)
+2022-05-27 00:00:37.612  INFO 34880 --- [restartedMain] com.work.commuity2.Commuity2Application  : Starting Commuity2Application using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 34880 (F:\Java Ñ§Ï°\commuity2\target\classes started by Ðã in F:\Java Ñ§Ï°\commuity2)
+2022-05-27 00:00:37.617  INFO 34880 --- [restartedMain] com.work.commuity2.Commuity2Application  : The following profiles are active: dev
+2022-05-27 00:00:37.663  INFO 34880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 00:00:37.663  INFO 34880 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 00:00:38.680  INFO 34880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2022-05-27 00:00:38.688  INFO 34880 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-27 00:00:38.688  INFO 34880 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-05-27 00:00:38.690  INFO 34880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-05-27 00:00:38.690  INFO 34880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-05-27 00:00:38.690  INFO 34880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-05-27 00:00:38.690  INFO 34880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-05-27 00:00:38.693  INFO 34880 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-05-27 00:00:38.797  INFO 34880 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-27 00:00:38.797  INFO 34880 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1132 ms
+2022-05-27 00:00:39.364  INFO 34880 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-27 00:00:39.447  INFO 34880 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-27 00:00:39.465  INFO 34880 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-27 00:00:39.660  INFO 34880 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2022-05-27 00:00:39.661  INFO 34880 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-27 00:00:39.676  INFO 34880 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-27 00:00:39.712  INFO 34880 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-27 00:00:39.850  INFO 34880 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: profileUsingGET_1
+2022-05-27 00:00:39.872  INFO 34880 --- [restartedMain] com.work.commuity2.Commuity2Application  : Started Commuity2Application in 2.626 seconds (JVM running for 3.915)
+2022-05-27 00:00:57.612  INFO 34880 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 00:00:57.612  INFO 34880 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-27 00:00:57.613  INFO 34880 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-27 00:00:58.021  INFO 34880 --- [http-nio-8887-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-27 00:00:59.490  INFO 34880 --- [http-nio-8887-exec-2] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-27 00:10:06.155  INFO 34880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-27 00:10:06.281  INFO 34880 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-27 01:04:11.531  INFO 7360 --- [restartedMain] com.work.commuity2.Commuity2Application  : Starting Commuity2Application using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 7360 (F:\Java Ñ§Ï°\commuity2\target\classes started by Ðã in F:\Java Ñ§Ï°\commuity2)
+2022-05-27 01:04:11.553  INFO 7360 --- [restartedMain] com.work.commuity2.Commuity2Application  : The following profiles are active: dev
+2022-05-27 01:04:11.596  INFO 7360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2022-05-27 01:04:11.596  INFO 7360 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2022-05-27 01:04:13.247  INFO 7360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8887 (http)
+2022-05-27 01:04:13.256  INFO 7360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-05-27 01:04:13.256  INFO 7360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.54]
+2022-05-27 01:04:13.259  INFO 7360 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : An older version [1.2.23] of the Apache Tomcat Native library is installed, while Tomcat recommends a minimum version of [1.2.30]
+2022-05-27 01:04:13.259  INFO 7360 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : Loaded Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2022-05-27 01:04:13.259  INFO 7360 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true], UDS [false].
+2022-05-27 01:04:13.260  INFO 7360 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2022-05-27 01:04:13.276  INFO 7360 --- [restartedMain] o.a.catalina.core.AprLifecycleListener   : OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2022-05-27 01:04:13.390  INFO 7360 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2022-05-27 01:04:13.390  INFO 7360 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1794 ms
+2022-05-27 01:04:14.466  INFO 7360 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-27 01:04:14.616  INFO 7360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2022-05-27 01:04:14.638  INFO 7360 --- [restartedMain] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-27 01:04:14.862  INFO 7360 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8887 (http) with context path ''
+2022-05-27 01:04:14.864  INFO 7360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-27 01:04:14.890  INFO 7360 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-27 01:04:14.929  INFO 7360 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-27 01:04:15.104  INFO 7360 --- [restartedMain] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: profileUsingGET_1
+2022-05-27 01:04:15.142  INFO 7360 --- [restartedMain] com.work.commuity2.Commuity2Application  : Started Commuity2Application in 4.178 seconds (JVM running for 6.484)
+2022-05-27 01:05:04.706  INFO 7360 --- [http-nio-8887-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2022-05-27 01:05:04.706  INFO 7360 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2022-05-27 01:05:04.708  INFO 7360 --- [http-nio-8887-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2022-05-27 01:05:04.780  INFO 7360 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2022-05-27 01:05:05.835  INFO 7360 --- [http-nio-8887-exec-1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2022-05-27 01:05:58.735  INFO 7360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2022-05-27 01:05:58.773  INFO 7360 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-27 01:10:36.171  INFO 35932 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Starting Commuity2ApplicationTests using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 35932 (started by Ðã in F:\Java Ñ§Ï°\commuity2)
+2022-05-27 01:10:36.172  INFO 35932 --- [main] c.w.commuity2.Commuity2ApplicationTests  : The following profiles are active: production
+2022-05-27 01:10:39.246  INFO 35932 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2022-05-27 01:10:39.645  INFO 35932 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-27 01:10:40.213  INFO 35932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2022-05-27 01:10:40.252  INFO 35932 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2022-05-27 01:10:40.307  INFO 35932 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2022-05-27 01:10:40.558  INFO 35932 --- [main] .d.s.w.r.o.CachingOperationNameGenerator : Generating unique operation named: profileUsingGET_1
+2022-05-27 01:10:40.602  INFO 35932 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Started Commuity2ApplicationTests in 4.959 seconds (JVM running for 6.151)
