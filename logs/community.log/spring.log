@@ -1,2 +1,6 @@
 2022-05-26 00:54:39.023  INFO 24368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2022-05-26 00:54:39.047  INFO 24368 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2022-05-26 16:08:25.774  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Starting Commuity2ApplicationTests using Java 1.8.0_321 on LAPTOP-3RDERNRF with PID 32388 (started by Ðã in F:\Java Ñ§Ï°\commuity2)
+2022-05-26 16:08:25.775  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : The following 1 profile is active: "production"
+2022-05-26 16:08:28.700  INFO 32388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page template: index
+2022-05-26 16:08:29.007  INFO 32388 --- [main] c.w.commuity2.Commuity2ApplicationTests  : Started Commuity2ApplicationTests in 3.622 seconds (JVM running for 4.804)
