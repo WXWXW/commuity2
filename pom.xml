@@ -142,20 +142,28 @@
 
 
 
-
-
-
             <!--引入flyway插件-->
             <plugin>
                 <groupId>org.flywaydb</groupId>
                 <artifactId>flyway-maven-plugin</artifactId>
                 <version>5.2.4</version>
                 <configuration>
-                    <url>jdbc:mysql://localhost:3306/community</url>
+                    <url>jdbc:mysql://124.222.9.55:3306/community</url>
                     <user>root</user>
                     <password>java2021</password>
                 </configuration>
+                <dependencies>
+                    <dependency>
+                        <groupId>mysql</groupId>
+                        <artifactId>mysql-connector-java</artifactId>
+                        <version>8.0.28</version>
+                    </dependency>
+                </dependencies>
+
             </plugin>
+
+
+
 
             <plugin>
                 <groupId>org.mybatis.generator</groupId>
@@ -172,6 +180,7 @@
                     </dependency>
                 </dependencies>
             </plugin>
+
         </plugins>
     </build>
 
